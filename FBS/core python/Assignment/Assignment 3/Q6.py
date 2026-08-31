@@ -9,6 +9,5 @@ elif(cp>sp):
     loss=cp-sp
     loss_percentage=(loss/cp)*100
     print(f'loss is {loss}')
-    print(f'loss percentage is {loss_percentage}')
 else:
     print("no profit, no loss")

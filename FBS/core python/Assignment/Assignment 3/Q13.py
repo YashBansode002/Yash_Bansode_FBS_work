@@ -12,7 +12,6 @@ elif unit<=250:
 else:
     bill=(50*0.5)+(100*0.75)+(100*1.20)+((unit-250)*1.50)
 
-    
 
 surcharge=bill*20/100
 total=bill+surcharge
